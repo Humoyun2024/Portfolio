@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nma {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-i {
+    background-image: url("./images/bm1.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 953px;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: blue;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+
+.v1 {
+    font-weight: bolder;
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: -90px;
+}
+
+.p3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.clr {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clr1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.dv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.dv1 {
+    display: grid;
+    align-items: center;
+}
+
+.ss {
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+}
+
+.btn1 {
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.bg-1 {
+    background-image: url("./images/bmw3.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.bg-i2{
+    background-image: url("./images/bm1.webp");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #313131;
+}
+
+.btn5 {
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: transparent;
+}
+
+.p4 {
+    font-size: 10px;
+}
+
+.p5 {
+    font-size: 50px;
+}
+
+.car1 {
+    display: grid;
+    align-items: center;
+    padding-top: 180px;
+    color: white;
+}
+
+.bg1 {
+    padding: 70px 60px;
+}
+
+.p6 {
+    font-size: 40px;
+}
+
+.cdn1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f1 {
+    font-size: 30px;
+}
+
+.bt5 {
+    padding: 10px 15px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.ccc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr {
+    border-bottom: 4px white solid;
+}
+
+.cr a:hover {
+    /* font-size: 23px; */
+    background-color: blue;
+    padding: 20px 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.awesome {
+    font-family: futura;
+    font-style: italic;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #313131;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation: colorchange 8s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: #8e44ad;
+    }
+
+    20% {
+        color: #1abc9c;
+    }
+
+    30% {
+        color: #ffffff;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    50% {
+        color: #34495e;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: #2980b9;
+    }
+
+    80% {
+        color: #f1c40f;
+    }
+
+    90% {
+        color: #2980b9;
+    }
+
+    100% {
+        color: pink;
+    }
+}
+
+.p7{
+    display: inline-block;
+}
+
+
+
+.bmw11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.hr3{
+    border-top: 3px solid black;
+    margin-top: 100px;
+}
+
+.i1{
+    display: flex;
+    color: white;
+}
+
+.current{
+    border-bottom: 5px solid blue;
+}
